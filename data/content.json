@@ -1,0 +1,31 @@
+﻿{
+    "videos":  [
+
+               ],
+    "notes":  [
+                  {
+                      "title":  "欢迎提示",
+                      "date":  "2026.07.25",
+                      "excerpt":  "欢迎来到极屿Gebit的个人站！",
+                      "file":  "notes/note-20260725153755.md"
+                  },
+                  {
+                      "title":  "在忙碌里，为自己留下空白",
+                      "date":  "2026.07.09",
+                      "excerpt":  "不是每一分钟都要有产出，停下来也是生活的一部分。",
+                      "file":  "notes/slow-down.md"
+                  },
+                  {
+                      "title":  "我的随身记录工具箱",
+                      "date":  "2026.06.12",
+                      "excerpt":  "从手机备忘录到口袋相机，一些轻便而可靠的小伙伴。",
+                      "file":  "notes/toolkit.md"
+                  },
+                  {
+                      "title":  "我想记录的，从来不是完美生活",
+                      "date":  "2026.05.27",
+                      "excerpt":  "真实的摇晃、走神和不知所措，也有它们自己的光。",
+                      "file":  "notes/imperfect.md"
+                  }
+              ]
+}

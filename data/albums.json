@@ -1,0 +1,74 @@
+﻿{
+    "albums":  [
+                   {
+                       "id":  "north-xinjiang-2025-10-02",
+                       "title":  "北疆",
+                       "country":  "中国",
+                       "place":  "阿勒泰",
+                       "date":  "2025.10.02",
+                       "description":  "金色森林、山谷与风的记忆。",
+                       "cover":  "album/north-xinjiang-2025-10-02/cover.JPG",
+                       "photos":  [
+                                      "album/north-xinjiang-2025-10-02/cover.JPG",
+                                      "album/north-xinjiang-2025-10-02/3044D771_IMG_4616.jpg",
+                                      "album/north-xinjiang-2025-10-02/3FACAC80_IMG_4628.JPG",
+                                      "album/north-xinjiang-2025-10-02/60AD035E_IMG_4619.jpg",
+                                      "album/north-xinjiang-2025-10-02/C1D28474_IMG_4629.JPG"
+                                  ]
+                   },
+                   {
+                       "id":  "shanghai-2026-05-01",
+                       "title":  "上海",
+                       "country":  "中国",
+                       "place":  "上海",
+                       "date":  "2026.05.01",
+                       "description":  "城市影子与大概率的假日。",
+                       "cover":  "album/shanghai-2026-05-01/cover.jpg",
+                       "photos":  [
+                                      "album/shanghai-2026-05-01/cover.jpg",
+                                      "album/shanghai-2026-05-01/GZR_1464.jpg",
+                                      "album/shanghai-2026-05-01/GZR_1480.jpg",
+                                      "album/shanghai-2026-05-01/GZR_1481.jpg",
+                                      "album/shanghai-2026-05-01/GZR_1490.jpg"
+                                  ]
+                   },
+                   {
+                       "id":  "south-xinjiang-2026-07-11",
+                       "title":  "南疆",
+                       "country":  "中国",
+                       "place":  "喀什",
+                       "date":  "2026.07.11",
+                       "description":  "在长路与热风之间的一段旅程。",
+                       "cover":  "album/south-xinjiang-2026-07-11/cover.JPG",
+                       "photos":  [
+                                      "album/south-xinjiang-2026-07-11/cover.JPG",
+                                      "album/south-xinjiang-2026-07-11/2026_07_14_16_59_14_IMG_7519.JPG",
+                                      "album/south-xinjiang-2026-07-11/2026_07_15_18_19_58_IMG_7488.JPG",
+                                      "album/south-xinjiang-2026-07-11/2026_07_15_18_47_10_IMG_7494.JPG",
+                                      "album/south-xinjiang-2026-07-11/A98A1005-已增强-SR.JPG",
+                                      "album/south-xinjiang-2026-07-11/A98A1011.JPG",
+                                      "album/south-xinjiang-2026-07-11/A98A1015.JPG"
+                                  ]
+                   },
+                   {
+                       "id":  "hong-kong-2026-02-25",
+                       "title":  "香港",
+                       "country":  "中国",
+                       "place":  "香港",
+                       "date":  "2026.02.25",
+                       "description":  "山海之间的立体城市与海风。",
+                       "cover":  "album/hong-kong-2026-02-25/cover.jpg",
+                       "photos":  [
+                                      "album/hong-kong-2026-02-25/cover.jpg",
+                                      "album/hong-kong-2026-02-25/GZR_1261.jpg",
+                                      "album/hong-kong-2026-02-25/GZR_1265.jpg",
+                                      "album/hong-kong-2026-02-25/GZR_1302.jpg",
+                                      "album/hong-kong-2026-02-25/GZR_1317.jpg",
+                                      "album/hong-kong-2026-02-25/GZR_1320.jpg",
+                                      "album/hong-kong-2026-02-25/GZR_1346.jpg",
+                                      "album/hong-kong-2026-02-25/GZR_1354.jpg",
+                                      "album/hong-kong-2026-02-25/GZR_1365.jpg"
+                                  ]
+                   }
+               ]
+}
