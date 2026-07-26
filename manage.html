@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JIYUGebit · 内容管理</title><link rel="stylesheet" href="manage.css"></head>
+<body>
+  <main class="admin">
+    <header><a class="brand" href="index.html">JIYU<span>GEBIT</span></a><div><small>LOCAL CONTENT STUDIO</small><h1>内容管理</h1></div><button id="theme" aria-label="切换外观">◐</button></header>
+    <section class="stats" id="stats"></section>
+    <section class="grid">
+      <article><p class="eyebrow">VIDEO</p><h2>新增视频</h2><form id="video-form"><input name="number" inputmode="numeric" placeholder="封面编号，例如 21" required><input name="title" placeholder="视频标题" required><input name="date" placeholder="创作时间，例如 2026.07.26"><textarea name="description" placeholder="视频注释"></textarea><input name="bilibili" placeholder="Bilibili 链接"><input name="douyin" placeholder="抖音链接"><input name="xiaohongshu" placeholder="小红书链接"><button>保存视频</button></form></article>
+      <article><p class="eyebrow">NOTE</p><h2>新增笔记</h2><form id="note-form"><input name="title" placeholder="笔记标题" required><textarea name="body" placeholder="正文内容（自动生成 Markdown 笔记）" class="large"></textarea><button>保存笔记</button></form><a class="hint" href="markdown.html">打开独立 Markdown 编辑器</a></article>
+      <article><p class="eyebrow">SITE</p><h2>维护工具</h2><form id="version-form"><input name="version" placeholder="网站版本号，例如 2.173" required><button>更新版本号</button></form><div class="tools"><button data-action="syncAlbums">同步影集与缩略图</button><button data-action="buildIndex">更新搜索索引</button></div><p class="hint">所有操作都会直接写入本地数据文件；删除笔记会同时删除对应 Markdown 文件。</p></article>
+    </section>
+    <section id="content-library" class="library"><div class="library-head"><div><p class="eyebrow">CONTENT LIBRARY</p><h2>已有内容</h2></div><button id="batch-delete" class="danger">删除已选</button></div><div class="filters"><button data-filter="all">全部</button><button data-filter="video">视频</button><button data-filter="note">笔记</button><button data-filter="album">影集</button></div><div id="library-rows"></div></section>
+    <p class="status" id="status">正在连接本地内容服务…</p>
+  </main>
+  <script src="manage.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 param(
   [Parameter(Mandatory = $true)]
-  [ValidateSet('video','note','album','sync')]
+  [ValidateSet('video','note','album','sync','index','version')]
   [string]$Mode
 )
 
@@ -9,6 +9,27 @@ $dataRoot = Join-Path $root 'data'
 
 function Read-JsonFile([string]$path) { Get-Content -Raw -Encoding UTF8 -LiteralPath $path | ConvertFrom-Json }
 function Save-JsonFile([object]$value, [string]$path) { $value | ConvertTo-Json -Depth 10 | Set-Content -Encoding UTF8 -LiteralPath $path }
+function New-Thumbnail([object]$imageFile, [string]$folder) {
+  try {
+    Add-Type -AssemblyName System.Drawing
+    $thumbFolder = Join-Path $folder '.thumbnails'
+    New-Item -ItemType Directory -Force -Path $thumbFolder | Out-Null
+    $destination = Join-Path $thumbFolder ($imageFile.BaseName + '.jpg')
+    if ((Test-Path -LiteralPath $destination) -and ((Get-Item -LiteralPath $destination).LastWriteTime -ge $imageFile.LastWriteTime)) { return $destination }
+    $source = [System.Drawing.Image]::FromFile($imageFile.FullName)
+    try {
+      $width = [Math]::Min(640, $source.Width)
+      $height = [Math]::Max(1, [int][Math]::Round($source.Height * $width / $source.Width))
+      $bitmap = New-Object System.Drawing.Bitmap($width, $height)
+      try {
+        $graphics = [System.Drawing.Graphics]::FromImage($bitmap)
+        try { $graphics.InterpolationMode = [System.Drawing.Drawing2D.InterpolationMode]::HighQualityBicubic; $graphics.DrawImage($source, 0, 0, $width, $height) } finally { $graphics.Dispose() }
+        $bitmap.Save($destination, [System.Drawing.Imaging.ImageFormat]::Jpeg)
+      } finally { $bitmap.Dispose() }
+    } finally { $source.Dispose() }
+    return $destination
+  } catch { Write-Warning "Thumbnail skipped: $($imageFile.Name)"; return $null }
+}
 
 if ($Mode -eq 'video') {
   Write-Host ''
@@ -81,7 +102,7 @@ if ($Mode -eq 'album') {
 
 if ($Mode -eq 'sync') {
   Write-Host ''
-  Write-Host 'Sync all album photos and covers'
+  Write-Host 'Sync albums, covers and thumbnails'
   $path = Join-Path $dataRoot 'albums.json'
   $data = Read-JsonFile $path
   $albumRoot = Join-Path $root 'album'
@@ -90,7 +111,7 @@ if ($Mode -eq 'sync') {
   foreach ($entry in $data.albums) {
     $folder = Join-Path $albumRoot $entry.id
     if (-not (Test-Path -LiteralPath $folder)) { Write-Warning "Folder not found: $folder"; continue }
-    $images = @(Get-ChildItem -LiteralPath $folder -File -Recurse | Where-Object { $_.Name -match $imagePattern } | Sort-Object FullName)
+    $images = @(Get-ChildItem -LiteralPath $folder -File -Recurse | Where-Object { $_.Name -match $imagePattern -and $_.FullName -notmatch '\\.thumbnails\\' } | Sort-Object FullName)
     $coverFile = @($images | Where-Object { $_.BaseName -ieq 'cover' } | Select-Object -First 1)
     if ($coverFile.Count -gt 0) {
       $entry.cover = $coverFile[0].FullName.Substring($root.Length + 1).Replace('\','/')
@@ -100,9 +121,43 @@ if ($Mode -eq 'sync') {
       Write-Warning "No cover image in: $folder"
     }
     $entry.photos = @($images | ForEach-Object { $_.FullName.Substring($root.Length + 1).Replace('\','/') })
-    Write-Host "Synced $($entry.title): $($entry.photos.Count) photo(s)" -ForegroundColor Green
+    $thumbnails = @($images | ForEach-Object { $thumb = New-Thumbnail $_ $folder; if ($thumb) { $thumb.Substring($root.Length + 1).Replace('\','/') } })
+    $entry | Add-Member -NotePropertyName thumbnails -NotePropertyValue $thumbnails -Force
+    Write-Host "Synced $($entry.title): $($entry.photos.Count) photo(s), $($thumbnails.Count) thumbnail(s)" -ForegroundColor Green
     $updated++
   }
   Save-JsonFile $data $path
   Write-Host "Album sync complete: $updated chapter(s)" -ForegroundColor Green
+}
+
+if ($Mode -eq 'index') {
+  Write-Host ''
+  Write-Host 'Build search index'
+  $content = Read-JsonFile (Join-Path $dataRoot 'content.json')
+  $extraVideos = Read-JsonFile (Join-Path $dataRoot 'videos-12-20.json')
+  $albums = Read-JsonFile (Join-Path $dataRoot 'albums.json')
+  $items = [System.Collections.Generic.List[object]]::new()
+  foreach ($video in @($content.videos) + @($extraVideos.videos)) {
+    $items.Add([pscustomobject]@{ type = 'video'; title = $video.title; date = $video.date; description = $video.description; url = 'videos.html'; keywords = "$($video.title) $($video.description) $($video.date)" })
+  }
+  foreach ($note in @($content.notes)) {
+    $notePath = Join-Path $root $note.file
+    $body = if (Test-Path -LiteralPath $notePath) { Get-Content -Raw -Encoding UTF8 -LiteralPath $notePath } else { '' }
+    $items.Add([pscustomobject]@{ type = 'note'; title = $note.title; date = $note.date; description = $note.excerpt; url = "note.html?file=$([uri]::EscapeDataString($note.file))"; keywords = "$($note.title) $($note.excerpt) $body $($note.date)" })
+  }
+  foreach ($album in @($albums.albums)) {
+    $country = if ($null -ne $album.country) { $album.country } else { '' }
+    $items.Add([pscustomobject]@{ type = 'album'; title = $album.title; date = $album.date; description = "$country / $($album.place) $($album.description)"; url = "album-chapter.html?chapter=$($album.id)"; keywords = "$($album.title) $country $($album.place) $($album.description) $($album.date)" })
+  }
+  Save-JsonFile ([pscustomobject]@{ generatedAt = (Get-Date).ToString('s'); items = @($items) }) (Join-Path $dataRoot 'search-index.json')
+  Write-Host "Search index updated: $($items.Count) item(s)" -ForegroundColor Green
+}
+
+if ($Mode -eq 'version') {
+  Write-Host ''
+  Write-Host 'Update site version'
+  $version = Read-Host 'Version number (for example: 2.171)'
+  if ([string]::IsNullOrWhiteSpace($version)) { throw 'Version number is required.' }
+  Save-JsonFile ([pscustomobject]@{ version = $version.Trim() }) (Join-Path $dataRoot 'site-config.json')
+  Write-Host "Site version updated: $($version.Trim())" -ForegroundColor Green
 }

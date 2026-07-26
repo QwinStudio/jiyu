@@ -1,14 +1,95 @@
-{
-  "source": "Identified from the supplied screenshot and local cover images.",
-  "videos": [
-    {"id":"video-12","title":"\u63a2\u7d22\u521d\u4e2d\u751f\u6d3b","date":"","description":"\u5c01\u9762\u4e3b\u9898\u4e3a\u201c\u63a2\u7d22\u521d\u4e2d\u751f\u6d3b\u201d\uff0c\u8bf7\u8865\u5145\u53d1\u5e03\u65e5\u671f\u4e0e\u89c6\u9891\u94fe\u63a5\u3002","cover":"media/vid/12.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""},
-    {"id":"video-13","title":"\u4e00\u4e2a\u521d\u4e2d\u751f\u662f\u600e\u4e48\u526a\u89c6\u9891\u7684\uff1f\uff1f","date":"2025.06.08","description":"\u5173\u4e8e\u521d\u4e2d\u751f\u89c6\u9891\u526a\u8f91\u5de5\u4f5c\u6d41\u7684\u89c6\u9891\u3002\u5c01\u9762 13.png \u5c1a\u672a\u4e0a\u4f20\u3002","cover":"media/vid/13.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""},
-    {"id":"video-14","title":"\u521d\u4e2d\u751f\u62cd\u6444\u5929\u7a7a\u89c6\u89d2\u7684\u5229\u5668\uff1f\u2014\u2014DJI Air 3S \u4f7f\u7528\u5206\u4eab","date":"2025.07.17","description":"DJI Air 3S \u65e0\u4eba\u673a\u4f7f\u7528\u5206\u4eab\u3002","cover":"media/vid/14.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""},
-    {"id":"video-15","title":"\u4e00\u4e2a\u521d\u4e2d\u751f\u81ea\u5a92\u4f53\u535a\u4e3b\u662f\u600e\u4e48\u5e03\u7f6e\u5de5\u4f5c\u5ba4\u7684\uff1f","date":"2025.07.31","description":"\u81ea\u5a92\u4f53\u5de5\u4f5c\u5ba4\u5e03\u7f6e\u5206\u4eab\u3002","cover":"media/vid/15.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""},
-    {"id":"video-16","title":"\u521d\u4e2d\u751f\u7684 OSMO 360 \u4f7f\u7528\u5206\u4eab","date":"2025.08.11","description":"OSMO 360 \u4f7f\u7528\u4f53\u9a8c\u4e0e\u5206\u4eab\u3002","cover":"media/vid/16.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""},
-    {"id":"video-17","title":"\u6211\u7684 iPhone \u62cd\u6444\u642d\u6863","date":"2025.09.05","description":"iPhone \u62cd\u6444\u642d\u6863 Flow 2 Pro \u4f7f\u7528\u4f53\u9a8c\u3002","cover":"media/vid/17.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""},
-    {"id":"video-18","title":"\u4e2d\u8003\u524d\uff0c\u53bb\u4e86\u4e00\u8d9f\u5317\u7586\uff5c\u521d\u4e09\u5b66\u751f\u65c5\u62cd Vlog","date":"2025.10.11","description":"\u5317\u7586\u65c5\u884c\u8bb0\u5f55 Vlog\u3002","cover":"media/vid/18.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""},
-    {"id":"video-19","title":"AI \u65f6\u4ee3\u7684\u4e2a\u4eba\u521b\u4f5c\u8005\u5e94\u4f55\u4e3a\uff1f\u2014\u2014\u5173\u4e8e\u521d\u4e2d\u751f\u521b\u4f5c\u8005\u7684\u770b\u6cd5","date":"2026.02.13","description":"\u5173\u4e8e AI \u65f6\u4ee3\u4e2a\u4eba\u521b\u4f5c\u8005\u7684\u601d\u8003\u3002","cover":"media/vid/19.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""},
-    {"id":"video-20","title":"\u4e2d\u8003\u540e\u5357\u7586\u63a2\u79d8\u4e4b\u65c5","date":"2026.07.19","description":"\u5357\u7586\u65c5\u884c\u8bb0\u5f55\u3002","cover":"media/vid/20.png","bilibili":"https://space.bilibili.com/1039063696","douyin":"","xiaohongshu":""}
-  ]
+﻿{
+    "source":  "Identified from the supplied screenshot and local cover images.",
+    "videos":  [
+                   {
+                       "id":  "video-12",
+                       "title":  "初中生的拍摄设备",
+                       "date":  "2024.11.30",
+                       "description":  "封面主题为“探索初中生活”，请补充发布日期与视频链接。",
+                       "cover":  "media/vid/12.png",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   },
+                   {
+                       "id":  "video-13",
+                       "title":  "一个初中生是怎么剪视频的？？",
+                       "date":  "2025.06.08",
+                       "description":  "关于初中生视频剪辑工作流的视频。",
+                       "cover":  "media/vid/13.jpg",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   },
+                   {
+                       "id":  "video-14",
+                       "title":  "初中生拍摄天空视角的利器？——DJI Air 3S 使用分享",
+                       "date":  "2025.07.17",
+                       "description":  "DJI Air 3S 无人机使用分享。",
+                       "cover":  "media/vid/14.png",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   },
+                   {
+                       "id":  "video-15",
+                       "title":  "一个初中生自媒体博主是怎么布置工作室的？",
+                       "date":  "2025.07.31",
+                       "description":  "自媒体工作室布置分享。",
+                       "cover":  "media/vid/15.png",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   },
+                   {
+                       "id":  "video-16",
+                       "title":  "初中生的 OSMO 360 使用分享",
+                       "date":  "2025.08.11",
+                       "description":  "OSMO 360 使用体验与分享。",
+                       "cover":  "media/vid/16.png",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   },
+                   {
+                       "id":  "video-17",
+                       "title":  "我的 iPhone 拍摄搭档",
+                       "date":  "2025.09.05",
+                       "description":  "iPhone 拍摄搭档 Flow 2 Pro 使用体验。",
+                       "cover":  "media/vid/17.png",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   },
+                   {
+                       "id":  "video-18",
+                       "title":  "中考前，去了一趟北疆｜初三学生旅拍 Vlog",
+                       "date":  "2025.10.11",
+                       "description":  "北疆旅行记录 Vlog。",
+                       "cover":  "media/vid/18.png",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   },
+                   {
+                       "id":  "video-19",
+                       "title":  "AI 时代的个人创作者应何为？——关于初中生创作者的看法",
+                       "date":  "2026.02.13",
+                       "description":  "关于 AI 时代个人创作者的思考。",
+                       "cover":  "media/vid/19.png",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   },
+                   {
+                       "id":  "video-20",
+                       "title":  "中考后南疆探秘之旅",
+                       "date":  "2026.07.19",
+                       "description":  "南疆旅行记录。",
+                       "cover":  "media/vid/20.png",
+                       "bilibili":  "https://space.bilibili.com/1039063696",
+                       "douyin":  "",
+                       "xiaohongshu":  ""
+                   }
+               ]
 }
