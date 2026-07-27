@@ -55,3 +55,53 @@
     window.setTimeout(() => { window.location.href = link.href; }, 470);
   }, true);
 })();
+
+// Music desktop navigation has its own controller.  The shared app shell also
+// binds a navigation click handler; taking ownership at document-capture time
+// prevents that older handler from navigating before the indicator transition
+// can paint.
+(() => {
+  const nav = document.querySelector('body.music-dark .nav');
+  const menu = nav?.querySelector(':scope > nav');
+  if (!nav || !menu) return;
+  const style = document.createElement('style');
+  style.textContent += `
+    @media (min-width:1025px){
+      body.music-dark .nav .mobile-actions .menu,
+      body.music-dark .nav > .menu{display:none!important}
+      body.music-dark .nav.nav-switching nav a{pointer-events:none}
+    }
+  `;
+  document.head.append(style);
+  document.addEventListener('click', event => {
+    if (matchMedia('(max-width:1024px)').matches || event.defaultPrevented) return;
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const link = event.target.closest?.('a[href]');
+    if (!link || !menu.contains(link) || link.classList.contains('active')) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    const indicator = menu.querySelector('.liquid-indicator');
+    const host = menu.getBoundingClientRect();
+    const item = link.getBoundingClientRect();
+    const current = menu.querySelector('a.active');
+    const currentRect = current?.getBoundingClientRect();
+    nav.classList.add('nav-switching');
+    menu.querySelectorAll('a').forEach(itemLink => itemLink.classList.toggle('active', itemLink === link));
+    if (indicator) {
+      indicator.style.transition = 'none';
+      indicator.style.left = `${(currentRect ? currentRect.left : item.left) - host.left}px`;
+      indicator.style.width = `${currentRect ? currentRect.width : item.width}px`;
+      indicator.style.opacity = '1';
+      indicator.style.animation = 'none';
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          indicator.style.transition = 'left .46s cubic-bezier(.22,.9,.25,1),width .46s cubic-bezier(.22,.9,.25,1),opacity .2s';
+          indicator.style.left = `${item.left - host.left}px`;
+          indicator.style.width = `${item.width}px`;
+          indicator.style.animation = 'musicNavGlow .46s cubic-bezier(.22,.9,.25,1) both';
+        });
+      });
+    }
+    window.setTimeout(() => { window.location.assign(link.href); }, 500);
+  }, true);
+})();

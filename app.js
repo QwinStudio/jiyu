@@ -146,3 +146,58 @@ const restoreDockTransition=()=>{const direction=sessionStorage.getItem('jiyuDoc
 setTimeout(()=>{const previous=q('.mobile-dock');if(!previous||previous.dataset.dockV2==='1')return;const dock=previous.cloneNode(true);dock.dataset.dockV2='1';previous.replaceWith(dock);let indicator=dock.querySelector('.dock-liquid-indicator');if(!indicator){indicator=document.createElement('span');indicator.className='dock-liquid-indicator';dock.append(indicator)}const links=[...dock.querySelectorAll('a')];const page=(location.pathname.split('/').pop()||'index.html').toLowerCase();const route=page==='album-chapter.html'?'album.html':page==='note.html'?'notes.html':['music.html','music-album.html','music-player.html'].includes(page)?'music.html':page;links.forEach(link=>link.classList.toggle('active',link.getAttribute('href')===route));const active=()=>dock.querySelector('a.active');const place=(link,animated)=>{if(!link)return;const x=link.offsetLeft+(link.offsetWidth-indicator.offsetWidth)/2;indicator.style.transition=animated?'transform .34s cubic-bezier(.22,.9,.25,1)':'none';indicator.style.transform=`translate3d(${Math.round(x)}px,0,0)`;indicator.style.top=`${Math.round((dock.clientHeight-indicator.offsetHeight)/2)}px`;indicator.style.opacity='1';if(!animated)requestAnimationFrame(()=>indicator.style.transition='transform .34s cubic-bezier(.22,.9,.25,1)')};place(active(),false);links.forEach(link=>link.addEventListener('click',event=>{if(!matchMedia('(max-width:1024px)').matches||link===active()||dock.dataset.navigating)return;event.preventDefault();event.stopImmediatePropagation();dock.dataset.navigating='1';const from=links.indexOf(active()),to=links.indexOf(link),direction=to<from?'back':'forward';links.forEach(item=>item.classList.toggle('active',item===link));place(link,true);document.body.classList.add(direction==='back'?'dock-v2-leave-back':'dock-v2-leave-forward');sessionStorage.setItem('jiyuDockTransitionV2',direction);setTimeout(()=>location.href=link.href,280)},true));addEventListener('resize',()=>place(active(),false),{passive:true})},180);
 
 (()=>{const page=(location.pathname.split('/').pop()||'').toLowerCase();if(page!=='music-album.html'&&page!=='music-player.html')return;const nav=q('.nav');if(!nav)return;const keepExpanded=()=>nav.classList.remove('compact','expanded');keepExpanded();addEventListener('scroll',keepExpanded,{passive:true})})();
+
+// Desktop music navigation never exposes the mobile collapse control.
+if(document.body.classList.contains('music-dark')){const css=document.createElement('style');css.textContent='@media(min-width:1025px){body.music-dark .nav .mobile-actions .menu,body.music-dark .nav>.menu{display:none!important}}';document.head.append(css)}
+
+/* Mirror the album navigation shell on music pages and own its desktop motion. */
+(()=>{const header=document.querySelector('body.music-dark .nav'),nav=header?.querySelector(':scope > nav');if(!header||!nav)return;const css=document.createElement('style');css.textContent='body.music-dark .nav{background:rgba(19,22,23,.7)!important;border-color:rgba(255,255,255,.14)!important;box-shadow:none!important}body.music-dark .nav .logo,body.music-dark .nav nav a{color:#e9ecec!important}body.music-dark .nav nav a.active{background:rgba(255,255,255,.12)!important;color:#fff!important}@media(min-width:1025px){body.music-dark .nav>.mobile-actions{display:contents!important}body.music-dark .nav .mobile-actions .menu,body.music-dark .nav>.menu{display:none!important}}@media(max-width:1024px){body.music-dark .nav{background:transparent!important;border-color:transparent!important}body.music-dark .nav>.logo,body.music-dark .nav>.mobile-actions{background:linear-gradient(135deg,rgba(34,43,45,.78),rgba(12,18,19,.72))!important;border-color:rgba(255,255,255,.17)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.12),0 9px 22px rgba(0,0,0,.28)!important}body.music-dark .nav>.mobile-actions .search-trigger,body.music-dark .nav>.mobile-actions .menu{color:#fff!important;background:transparent!important}}';document.head.append(css);let indicator=nav.querySelector('.liquid-indicator');if(!indicator){indicator=document.createElement('span');indicator.className='liquid-indicator';nav.prepend(indicator)}const place=(link,animate)=>{if(!link)return;const host=nav.getBoundingClientRect(),rect=link.getBoundingClientRect();if(!animate)indicator.style.transition='none';indicator.style.left=(rect.left-host.left)+'px';indicator.style.width=rect.width+'px';indicator.style.opacity='1';if(!animate)requestAnimationFrame(()=>indicator.style.transition='left .48s cubic-bezier(.22,.9,.25,1),width .48s cubic-bezier(.22,.9,.25,1),opacity .2s')};place(nav.querySelector('a.active'),false);addEventListener('resize',()=>place(nav.querySelector('a.active'),false),{passive:true});document.addEventListener('click',event=>{if(matchMedia('(max-width:1024px)').matches||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;const link=event.target.closest?.('a[href]');if(!link||!nav.contains(link)||link.classList.contains('active'))return;event.preventDefault();event.stopImmediatePropagation();const from=nav.querySelector('a.active');place(from,false);nav.querySelectorAll('a').forEach(item=>item.classList.toggle('active',item===link));requestAnimationFrame(()=>place(link,true));header.classList.add('music-nav-changing');setTimeout(()=>location.assign(link.href),500)},true)})();
+
+/* Album uses a dark surface: its textual gear needs the same white foreground as search. */
+if(document.body.classList.contains('album-dark')){const css=document.createElement('style');css.textContent='.album-dark .nav .settings-trigger{color:#fff!important;text-shadow:0 1px 2px rgba(0,0,0,.28)!important}.album-dark .nav .settings-trigger::before,.album-dark .nav .settings-trigger::after{color:#fff!important;filter:brightness(0) invert(1)!important}';document.head.append(css)}
+
+/* The Music item is appended after the original navigation setup.  Give that
+   late-created link the same desktop liquid transition as the original items. */
+(()=>{
+  if(document.body.classList.contains('music-dark')) return;
+  const desktop=()=>matchMedia('(hover:hover) and (pointer:fine)').matches;
+  document.addEventListener('click',event=>{
+    if(!desktop()||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+    const link=event.target.closest?.('.nav nav a[href="music.html"]');
+    if(!link||link.dataset.musicNavAnimating==='1')return;
+    const nav=link.closest('nav');
+    if(!nav)return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    link.dataset.musicNavAnimating='1';
+    let indicator=nav.querySelector('.liquid-indicator');
+    if(!indicator){indicator=document.createElement('span');indicator.className='liquid-indicator';nav.prepend(indicator)}
+    const place=(item,animate)=>{
+      const host=nav.getBoundingClientRect(),rect=item.getBoundingClientRect();
+      if(!animate)indicator.style.transition='none';
+      indicator.style.left=(rect.left-host.left)+'px';
+      indicator.style.width=rect.width+'px';
+      indicator.style.opacity='1';
+      if(!animate)requestAnimationFrame(()=>{indicator.style.transition='left .48s cubic-bezier(.22,.9,.25,1),width .48s cubic-bezier(.22,.9,.25,1),opacity .25s'});
+    };
+    const current=nav.querySelector('a.active');
+    if(current)place(current,false);
+    nav.querySelectorAll('a').forEach(item=>item.classList.toggle('active',item===link));
+    requestAnimationFrame(()=>place(link,true));
+    sessionStorage.setItem('jiyuMusicNavArrival','1');
+    setTimeout(()=>location.assign(link.href),500);
+  },true);
+})();
+
+/* Secondary pages share the primary navigation shell.  The page body no
+   longer gets a second textual "back" control; on touch layouts the logo is
+   the one consistent circular back affordance created above. */
+(()=>{
+  const page=(location.pathname.split('/').pop()||'index.html').toLowerCase();
+  if(!['note.html','album-chapter.html'].includes(page))return;
+  document.body.classList.add('jiyu-unified-subpage');
+  document.querySelector('.page > .back')?.remove();
+  const style=document.createElement('style');
+  style.textContent='body.jiyu-unified-subpage .nav.compact{width:min(1180px,calc(100% - 48px))!important;height:auto!important;padding:12px 18px!important;margin-right:auto!important}body.jiyu-unified-subpage .nav.compact nav,body.jiyu-unified-subpage .nav.compact .join{display:flex!important}body.jiyu-unified-subpage .nav.compact .logo,body.jiyu-unified-subpage .nav.compact .logo span{font-size:inherit!important}body.jiyu-unified-subpage .nav.compact .logo:after{display:none!important}@media(max-width:1024px){body.jiyu-unified-subpage .nav.compact{width:calc(100% - 32px)!important;height:auto!important;padding:0!important}body.jiyu-unified-subpage .nav.compact nav,body.jiyu-unified-subpage .nav.compact .join{display:none!important}}';
+  document.head.append(style);
+})();

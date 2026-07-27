@@ -1,4 +1,8 @@
 (()=>{
+  // music-revive.js is the single renderer for the music experience.  This
+  // legacy renderer used to race it and could replace the same page with a
+  // different title alignment and a second back control after a refresh.
+  if(document.body.classList.contains('music-dark')) return;
   const $=s=>document.querySelector(s),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const css=document.createElement('style');
   css.textContent=`
