@@ -78,5 +78,17 @@ $('#version-form').onsubmit = async event => { event.preventDefault(); try { awa
 document.querySelectorAll('[data-action]').forEach(button => button.onclick = async () => { try { button.disabled = true; await api(button.dataset.action); tell(button.dataset.action === 'syncAlbums' ? '影集与缩略图已同步。' : '搜索索引已更新。'); } catch (error) { tell(error.message, true); } finally { button.disabled = false; } });
 document.querySelectorAll('[data-filter]').forEach(button => button.onclick = () => { filter = button.dataset.filter; paintRows(); });
 $('#batch-delete').onclick = () => deleteItems([...document.querySelectorAll('.library-check:checked')].map(box => ({type:box.dataset.type, source:box.dataset.source, id:box.dataset.id})));
+
+document.querySelectorAll('[data-action="syncMusic"]').forEach(button => button.onclick = async () => {
+  try {
+    button.disabled = true;
+    await api('syncMusic');
+    tell('\u97f3\u4e50\u4e13\u8f91\u5df2\u540c\u6b65\uff0c\u8f6e\u64ad\u5361\u7247\u5df2\u81ea\u52a8\u66f4\u65b0\u3002');
+  } catch (error) {
+    tell(error.message, true);
+  } finally {
+    button.disabled = false;
+  }
+});
 $('#theme').onclick = () => document.body.classList.toggle('dark');
 load();

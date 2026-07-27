@@ -1,0 +1,838 @@
+﻿{
+    "albums":  [
+                   {
+                       "id":  "iTunes Session",
+                       "title":  "iTunes Session",
+                       "subtitle":  "方大同",
+                       "artist":  "方大同",
+                       "year":  "2014",
+                       "palette":  [
+                                       "#101030",
+                                       "#101030",
+                                       "#101030"
+                                   ],
+                       "tracks":  [
+                                      {
+                                          "id":  "track-6cf51236184f",
+                                          "title":  "Peace",
+                                          "artist":  "方大同_袁娅维",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/iTunes Session/方大同_袁娅维-Peace.mp3",
+                                          "lyrics":  "media/music/iTunes Session/方大同_袁娅维-Peace.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-3b40c42f346f",
+                                          "title":  "天气先生",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/iTunes Session/方大同-天气先生.mp3",
+                                          "lyrics":  "media/music/iTunes Session/方大同-天气先生.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-69b869ab4123",
+                                          "title":  "危险世界",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/iTunes Session/方大同-危险世界.mp3",
+                                          "lyrics":  "media/music/iTunes Session/方大同-危险世界.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-e510b75d6ecb",
+                                          "title":  "小方",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/iTunes Session/方大同-小方.mp3",
+                                          "lyrics":  "media/music/iTunes Session/方大同-小方.lrc",
+                                          "bilingual":  true
+                                      }
+                                  ],
+                       "cover":  "media/music/iTunes Session/cover.jpg"
+                   },
+                   {
+                       "id":  "JTW西游记",
+                       "title":  "JTW西游记",
+                       "subtitle":  "方大同",
+                       "artist":  "方大同",
+                       "year":  "2026",
+                       "palette":  [
+                                       "#101010",
+                                       "#101010",
+                                       "#101010"
+                                   ],
+                       "tracks":  [
+                                      {
+                                          "id":  "track-1cd7612d802a",
+                                          "title":  "As I Do",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同 - As I Do.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同 - As I Do.lrc"
+                                      },
+                                      {
+                                          "id":  "track-71853361e675",
+                                          "title":  "Once",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同 - Once.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同 - Once.lrc"
+                                      },
+                                      {
+                                          "id":  "track-c16d2326bfb7",
+                                          "title":  "Right Girl",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同 - Right Girl.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同 - Right Girl.lrc"
+                                      },
+                                      {
+                                          "id":  "track-fe49c5d5f0f3",
+                                          "title":  "烦",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同 - 烦.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同 - 烦.lrc"
+                                      },
+                                      {
+                                          "id":  "track-9b0207a414f3",
+                                          "title":  "放不过自己",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同 - 放不过自己.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同 - 放不过自己.lrc"
+                                      },
+                                      {
+                                          "id":  "track-5f41e1148b4b",
+                                          "title":  "黑夜",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同 - 黑夜.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同 - 黑夜.lrc"
+                                      },
+                                      {
+                                          "id":  "track-fe496a3c1700",
+                                          "title":  "很不低调",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同 - 很不低调.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同 - 很不低调.lrc"
+                                      },
+                                      {
+                                          "id":  "track-4cec76b6a05e",
+                                          "title":  "Run From Your Love",
+                                          "artist":  "方大同,FiFi Rong",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同,FiFi Rong - Run From Your Love.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-425b36e17138",
+                                          "title":  "All Night",
+                                          "artist":  "方大同,王诗安",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同,王诗安 - All Night.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同,王诗安 - All Night.lrc"
+                                      },
+                                      {
+                                          "id":  "track-465b3ca76ae6",
+                                          "title":  "无所谓",
+                                          "artist":  "方大同,张靓颖",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同,张靓颖 - 无所谓.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同,张靓颖 - 无所谓.lrc"
+                                      },
+                                      {
+                                          "id":  "track-f8223ae1a985",
+                                          "title":  "味道",
+                                          "artist":  "方大同_Zion.T_Crush",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同_Zion.T_Crush-味道.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-eb179f2ddf9e",
+                                          "title":  "醉",
+                                          "artist":  "方大同_杭盖",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同_杭盖-醉.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-e1dbbd38f06c",
+                                          "title":  "FLOW",
+                                          "artist":  "方大同_王力宏",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同_王力宏-FLOW.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同_王力宏-FLOW.lrc"
+                                      },
+                                      {
+                                          "id":  "track-321663a8958c",
+                                          "title":  "Love You So Much",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同-Love You So Much.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-c614b79b0622",
+                                          "title":  "NMW",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同-NMW.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同-NMW.lrc"
+                                      },
+                                      {
+                                          "id":  "track-4bf4cbe42514",
+                                          "title":  "Ring Finger",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同-Ring Finger.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同-Ring Finger.lrc"
+                                      },
+                                      {
+                                          "id":  "track-7c762382ba93",
+                                          "title":  "梦蝴蝶",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同-梦蝴蝶.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同-梦蝴蝶.lrc"
+                                      },
+                                      {
+                                          "id":  "track-77d40cecfbe4",
+                                          "title":  "听",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同-听.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同-听.lrc"
+                                      },
+                                      {
+                                          "id":  "track-00712b8a9f85",
+                                          "title":  "悟空",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同-悟空.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同-悟空.lrc"
+                                      },
+                                      {
+                                          "id":  "track-609f2a6d60ad",
+                                          "title":  "笑开",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/JTW西游记/方大同-笑开.mp3",
+                                          "lyrics":  "media/music/JTW西游记/方大同-笑开.lrc"
+                                      }
+                                  ],
+                       "cover":  "media/music/JTW西游记/cover.jpg"
+                   },
+                   {
+                       "id":  "KUN",
+                       "title":  "KUN",
+                       "subtitle":  "蔡徐坤",
+                       "artist":  "蔡徐坤",
+                       "year":  "2026",
+                       "palette":  [
+                                       "#D0D0D0",
+                                       "#D0D0D0",
+                                       "#D0D0D0"
+                                   ],
+                       "tracks":  [
+                                      {
+                                          "id":  "track-87128a775a0e",
+                                          "title":  "Colder (Explicit)",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - Colder (Explicit).mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-4036cd334585",
+                                          "title":  "Deadman",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - Deadman.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-4cc2f210409d",
+                                          "title":  "Don\u0027t Call (feat_ Free Nationals) (Explicit)",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - Don\u0027t Call (feat_ Free Nationals) (Explicit).mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-a91ead8075ee",
+                                          "title":  "Honour",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - Honour.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-29bfe27d6f6d",
+                                          "title":  "Jasmine",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - Jasmine.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-b6fa2a93f179",
+                                          "title":  "Night Into Night (Interlude)",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - Night Into Night (Interlude).mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-00bca6240dd7",
+                                          "title":  "Paranoid",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - Paranoid.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-c3c0a0625ea4",
+                                          "title":  "Washed Away",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - Washed Away.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-c1ee9c817aca",
+                                          "title":  "What a Day",
+                                          "artist":  "蔡徐坤",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/KUN/蔡徐坤 - What a Day.mp3",
+                                          "lyrics":  null
+                                      }
+                                  ],
+                       "cover":  "media/music/KUN/cover.jpg"
+                   },
+                   {
+                       "id":  "Soulboy",
+                       "title":  "Soulboy",
+                       "subtitle":  "方大同",
+                       "artist":  "方大同",
+                       "year":  "2005",
+                       "palette":  [
+                                       "#B0B0B0",
+                                       "#B0B0B0",
+                                       "#B0B0B0"
+                                   ],
+                       "tracks":  [
+                                      {
+                                          "id":  "track-1d3bd458bf95",
+                                          "title":  "Prologue",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-Prologue.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-Prologue.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-8533e9261aed",
+                                          "title":  "春风吹",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-春风吹.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-春风吹.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-12285a14066b",
+                                          "title":  "等著你回来",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-等著你回来.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-等著你回来.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-469aacc5c3cd",
+                                          "title":  "赶场",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-赶场.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-赶场.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-0388058bb2e3",
+                                          "title":  "叫我怎么说",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-叫我怎么说.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-叫我怎么说.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-d2cbed5d15e0",
+                                          "title":  "每天每天",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-每天每天.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-每天每天.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-8d4422ff66ef",
+                                          "title":  "妹妹",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-妹妹.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-妹妹.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-560fa0e88980",
+                                          "title":  "哪怕",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-哪怕.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-哪怕.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-7c8a779c2328",
+                                          "title":  "南音",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-南音.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-南音.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-e68bc3105204",
+                                          "title":  "女人",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-女人.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-a4e3d0884eb9",
+                                          "title":  "认识你",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-认识你.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-认识你.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-d44645ecdc75",
+                                          "title":  "跳",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-跳.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-94f58464e6f9",
+                                          "title":  "我们能不能",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-我们能不能.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-我们能不能.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-295a958ea7a9",
+                                          "title":  "总结",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Soulboy/方大同-总结.mp3",
+                                          "lyrics":  "media/music/Soulboy/方大同-总结.lrc",
+                                          "bilingual":  false
+                                      }
+                                  ],
+                       "cover":  "media/music/Soulboy/cover.jpg"
+                   },
+                   {
+                       "id":  "Timeless 可啦思刻",
+                       "title":  "Timeless 可啦思刻",
+                       "subtitle":  "方大同",
+                       "artist":  "方大同",
+                       "year":  "2026",
+                       "palette":  [
+                                       "#F0F0F0",
+                                       "#F0F0F0",
+                                       "#F0F0F0"
+                                   ],
+                       "tracks":  [
+                                      {
+                                          "id":  "track-39a4a30a509c",
+                                          "title":  "You Are The Sunshine Of My Life",
+                                          "artist":  "方大同_黄韵玲",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同_黄韵玲-You Are The Sunshine Of My Life.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-ba35ab7ed3dc",
+                                          "title":  "Bad",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-Bad.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-028c38ccaea3",
+                                          "title":  "Georgia On My Mind",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-Georgia On My Mind.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-cfbd05c9877d",
+                                          "title":  "La Bamba",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-La Bamba.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-88c9df2d45a0",
+                                          "title":  "Moon River",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-Moon River.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-8d354fb95785",
+                                          "title":  "Nothing\u0027s Gonna Change My Love For You",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-Nothing\u0027s Gonna Change My Love For You.mp3",
+                                          "lyrics":  "media/music/Timeless 可啦思刻/方大同-Nothing\u0027s Gonna Change My Love For You.lrc"
+                                      },
+                                      {
+                                          "id":  "track-542d54f1df9c",
+                                          "title":  "Wonderful Tonight",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-Wonderful Tonight.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-7df42949af30",
+                                          "title":  "红豆",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-红豆.mp3",
+                                          "lyrics":  "media/music/Timeless 可啦思刻/方大同-红豆.lrc"
+                                      },
+                                      {
+                                          "id":  "track-b4d22dbbe1db",
+                                          "title":  "记得",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-记得.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-162b36923f2b",
+                                          "title":  "狂潮",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-狂潮.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-fb6a647e6c30",
+                                          "title":  "月亮代表我的心",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/Timeless 可啦思刻/方大同-月亮代表我的心.mp3",
+                                          "lyrics":  null
+                                      }
+                                  ],
+                       "cover":  "media/music/Timeless 可啦思刻/cover.jpg"
+                   },
+                   {
+                       "id":  "橙月 Orange Moon",
+                       "title":  "橙月 Orange Moon",
+                       "subtitle":  "方大同",
+                       "artist":  "方大同",
+                       "year":  "2008",
+                       "palette":  [
+                                       "#F0F0F0",
+                                       "#F0F0F0",
+                                       "#F0F0F0"
+                                   ],
+                       "tracks":  [
+                                      {
+                                          "id":  "track-5de939372e52",
+                                          "title":  "100种表情",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 100种表情.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 100种表情.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-b1e12f6cd9b6",
+                                          "title":  "1234567",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 1234567.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 1234567.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-4d6346525f31",
+                                          "title":  "Orange Moon (Hidden track)",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - Orange Moon (Hidden track).mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - Orange Moon (Hidden track).lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-f22698ebabad",
+                                          "title":  "Singalongsong",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - Singalongsong.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - Singalongsong.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-ce84c671c450",
+                                          "title":  "爱我吧",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 爱我吧.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 爱我吧.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-5d450e9f66a9",
+                                          "title":  "黑白",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 黑白.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 黑白.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-786a568e57d8",
+                                          "title":  "黑洞里",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 黑洞里.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 黑洞里.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-f382d7b4944d",
+                                          "title":  "每个人都会",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 每个人都会.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 每个人都会.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-b9b4d740d036",
+                                          "title":  "如果爱",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 如果爱.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 如果爱.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-bb1d2e317000",
+                                          "title":  "三人游",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 三人游.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 三人游.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-7c73ee530168",
+                                          "title":  "为你写的歌",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 为你写的歌.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 为你写的歌.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-f04fc8479dd7",
+                                          "title":  "小小虫",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/橙月 Orange Moon/方大同 - 小小虫.mp3",
+                                          "lyrics":  "media/music/橙月 Orange Moon/方大同 - 小小虫.lrc",
+                                          "bilingual":  false
+                                      }
+                                  ],
+                       "cover":  "media/music/橙月 Orange Moon/cover.jpg"
+                   },
+                   {
+                       "id":  "危险世界",
+                       "title":  "危险世界",
+                       "subtitle":  "方大同",
+                       "artist":  "方大同",
+                       "year":  "2014",
+                       "palette":  [
+                                       "#103030",
+                                       "#103030",
+                                       "#103030"
+                                   ],
+                       "tracks":  [
+                                      {
+                                          "id":  "track-ef447c1ef0cb",
+                                          "title":  "爱不来",
+                                          "artist":  "方大同_葛仲珊",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同_葛仲珊-爱不来.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同_葛仲珊-爱不来.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-6cf51236184f",
+                                          "title":  "Peace",
+                                          "artist":  "方大同_袁娅维",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同_袁娅维-Peace.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同_袁娅维-Peace.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-3476b78e0e77",
+                                          "title":  "Boarding",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-Boarding.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-18c7047529d3",
+                                          "title":  "Lights Up",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-Lights Up.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-Lights Up.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-87c41d8e68c0",
+                                          "title":  "Soundcheck",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-Soundcheck.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-55a5ff4fe79f",
+                                          "title":  "Weather Report",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-Weather Report.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-Weather Report.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-b2012f99d903",
+                                          "title":  "Welcome",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-Welcome.mp3",
+                                          "lyrics":  null
+                                      },
+                                      {
+                                          "id":  "track-391d20e032a4",
+                                          "title":  "巴黎",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-巴黎.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-巴黎.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-3e7e3e2cb92f",
+                                          "title":  "枫叶做的风铃",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-枫叶做的风铃.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-枫叶做的风铃.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-a60f20deae6e",
+                                          "title":  "黑白灰",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-黑白灰.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-黑白灰.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-47f6cdb27005",
+                                          "title":  "僵尸",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-僵尸.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-僵尸.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-3553ec7dda43",
+                                          "title":  "桃花运",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-桃花运.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-桃花运.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-d1135c4803a9",
+                                          "title":  "特别的人",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-特别的人.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-特别的人.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-3b40c42f346f",
+                                          "title":  "天气先生",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-天气先生.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-天气先生.lrc",
+                                          "bilingual":  true
+                                      },
+                                      {
+                                          "id":  "track-69b869ab4123",
+                                          "title":  "危险世界",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-危险世界.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-危险世界.lrc",
+                                          "bilingual":  false
+                                      },
+                                      {
+                                          "id":  "track-e510b75d6ecb",
+                                          "title":  "小方",
+                                          "artist":  "方大同",
+                                          "duration":  "--:--",
+                                          "src":  "media/music/危险世界/方大同-小方.mp3",
+                                          "lyrics":  "media/music/危险世界/方大同-小方.lrc",
+                                          "bilingual":  true
+                                      }
+                                  ],
+                       "cover":  "media/music/危险世界/cover.jpg"
+                   }
+               ]
+}

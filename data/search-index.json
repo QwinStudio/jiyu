@@ -1,21 +1,21 @@
 ﻿{
-    "generatedAt":  "2026-07-25T21:24:01",
+    "generatedAt":  "2026-07-27T17:06:45",
     "items":  [
                   {
                       "type":  "video",
-                      "title":  "探索初中生活",
-                      "date":  "",
+                      "title":  "初中生的拍摄设备",
+                      "date":  "2024.11.30",
                       "description":  "封面主题为“探索初中生活”，请补充发布日期与视频链接。",
                       "url":  "videos.html",
-                      "keywords":  "探索初中生活 封面主题为“探索初中生活”，请补充发布日期与视频链接。 "
+                      "keywords":  "初中生的拍摄设备 封面主题为“探索初中生活”，请补充发布日期与视频链接。 2024.11.30"
                   },
                   {
                       "type":  "video",
                       "title":  "一个初中生是怎么剪视频的？？",
                       "date":  "2025.06.08",
-                      "description":  "关于初中生视频剪辑工作流的视频。封面 13.png 尚未上传。",
+                      "description":  "关于初中生视频剪辑工作流的视频。",
                       "url":  "videos.html",
-                      "keywords":  "一个初中生是怎么剪视频的？？ 关于初中生视频剪辑工作流的视频。封面 13.png 尚未上传。 2025.06.08"
+                      "keywords":  "一个初中生是怎么剪视频的？？ 关于初中生视频剪辑工作流的视频。 2025.06.08"
                   },
                   {
                       "type":  "video",
@@ -136,6 +136,694 @@
                       "description":  "中国 / 香港 山海之间的立体城市与海风。",
                       "url":  "album-chapter.html?chapter=hong-kong-2026-02-25",
                       "keywords":  "香港 中国 香港 山海之间的立体城市与海风。 2026.02.25"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Peace",
+                      "date":  "2014",
+                      "description":  "方大同_袁娅维 / iTunes Session",
+                      "url":  "music-player.html?album=iTunes Session\u0026track=track-6cf51236184f",
+                      "keywords":  "Peace 方大同_袁娅维 iTunes Session 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "天气先生",
+                      "date":  "2014",
+                      "description":  "方大同 / iTunes Session",
+                      "url":  "music-player.html?album=iTunes Session\u0026track=track-3b40c42f346f",
+                      "keywords":  "天气先生 方大同 iTunes Session 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "危险世界",
+                      "date":  "2014",
+                      "description":  "方大同 / iTunes Session",
+                      "url":  "music-player.html?album=iTunes Session\u0026track=track-69b869ab4123",
+                      "keywords":  "危险世界 方大同 iTunes Session 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "小方",
+                      "date":  "2014",
+                      "description":  "方大同 / iTunes Session",
+                      "url":  "music-player.html?album=iTunes Session\u0026track=track-e510b75d6ecb",
+                      "keywords":  "小方 方大同 iTunes Session 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "As I Do",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-1cd7612d802a",
+                      "keywords":  "As I Do 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Once",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-71853361e675",
+                      "keywords":  "Once 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Right Girl",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-c16d2326bfb7",
+                      "keywords":  "Right Girl 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "烦",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-fe49c5d5f0f3",
+                      "keywords":  "烦 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "放不过自己",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-9b0207a414f3",
+                      "keywords":  "放不过自己 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "黑夜",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-5f41e1148b4b",
+                      "keywords":  "黑夜 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "很不低调",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-fe496a3c1700",
+                      "keywords":  "很不低调 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Run From Your Love",
+                      "date":  "2026",
+                      "description":  "方大同,FiFi Rong / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-4cec76b6a05e",
+                      "keywords":  "Run From Your Love 方大同,FiFi Rong JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "All Night",
+                      "date":  "2026",
+                      "description":  "方大同,王诗安 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-425b36e17138",
+                      "keywords":  "All Night 方大同,王诗安 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "无所谓",
+                      "date":  "2026",
+                      "description":  "方大同,张靓颖 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-465b3ca76ae6",
+                      "keywords":  "无所谓 方大同,张靓颖 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "味道",
+                      "date":  "2026",
+                      "description":  "方大同_Zion.T_Crush / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-f8223ae1a985",
+                      "keywords":  "味道 方大同_Zion.T_Crush JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "醉",
+                      "date":  "2026",
+                      "description":  "方大同_杭盖 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-eb179f2ddf9e",
+                      "keywords":  "醉 方大同_杭盖 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "FLOW",
+                      "date":  "2026",
+                      "description":  "方大同_王力宏 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-e1dbbd38f06c",
+                      "keywords":  "FLOW 方大同_王力宏 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Love You So Much",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-321663a8958c",
+                      "keywords":  "Love You So Much 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "NMW",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-c614b79b0622",
+                      "keywords":  "NMW 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Ring Finger",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-4bf4cbe42514",
+                      "keywords":  "Ring Finger 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "梦蝴蝶",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-7c762382ba93",
+                      "keywords":  "梦蝴蝶 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "听",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-77d40cecfbe4",
+                      "keywords":  "听 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "悟空",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-00712b8a9f85",
+                      "keywords":  "悟空 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "笑开",
+                      "date":  "2026",
+                      "description":  "方大同 / JTW西游记",
+                      "url":  "music-player.html?album=JTW西游记\u0026track=track-609f2a6d60ad",
+                      "keywords":  "笑开 方大同 JTW西游记 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Colder (Explicit)",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-87128a775a0e",
+                      "keywords":  "Colder (Explicit) 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Deadman",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-4036cd334585",
+                      "keywords":  "Deadman 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Don\u0027t Call (feat_ Free Nationals) (Explicit)",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-4cc2f210409d",
+                      "keywords":  "Don\u0027t Call (feat_ Free Nationals) (Explicit) 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Honour",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-a91ead8075ee",
+                      "keywords":  "Honour 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Jasmine",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-29bfe27d6f6d",
+                      "keywords":  "Jasmine 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Night Into Night (Interlude)",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-b6fa2a93f179",
+                      "keywords":  "Night Into Night (Interlude) 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Paranoid",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-00bca6240dd7",
+                      "keywords":  "Paranoid 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Washed Away",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-c3c0a0625ea4",
+                      "keywords":  "Washed Away 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "What a Day",
+                      "date":  "2026",
+                      "description":  "蔡徐坤 / KUN",
+                      "url":  "music-player.html?album=KUN\u0026track=track-c1ee9c817aca",
+                      "keywords":  "What a Day 蔡徐坤 KUN 蔡徐坤"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Prologue",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-1d3bd458bf95",
+                      "keywords":  "Prologue 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "春风吹",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-8533e9261aed",
+                      "keywords":  "春风吹 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "等著你回来",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-12285a14066b",
+                      "keywords":  "等著你回来 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "赶场",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-469aacc5c3cd",
+                      "keywords":  "赶场 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "叫我怎么说",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-0388058bb2e3",
+                      "keywords":  "叫我怎么说 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "每天每天",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-d2cbed5d15e0",
+                      "keywords":  "每天每天 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "妹妹",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-8d4422ff66ef",
+                      "keywords":  "妹妹 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "哪怕",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-560fa0e88980",
+                      "keywords":  "哪怕 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "南音",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-7c8a779c2328",
+                      "keywords":  "南音 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "女人",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-e68bc3105204",
+                      "keywords":  "女人 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "认识你",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-a4e3d0884eb9",
+                      "keywords":  "认识你 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "跳",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-d44645ecdc75",
+                      "keywords":  "跳 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "我们能不能",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-94f58464e6f9",
+                      "keywords":  "我们能不能 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "总结",
+                      "date":  "2005",
+                      "description":  "方大同 / Soulboy",
+                      "url":  "music-player.html?album=Soulboy\u0026track=track-295a958ea7a9",
+                      "keywords":  "总结 方大同 Soulboy 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "You Are The Sunshine Of My Life",
+                      "date":  "2026",
+                      "description":  "方大同_黄韵玲 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-39a4a30a509c",
+                      "keywords":  "You Are The Sunshine Of My Life 方大同_黄韵玲 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Bad",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-ba35ab7ed3dc",
+                      "keywords":  "Bad 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Georgia On My Mind",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-028c38ccaea3",
+                      "keywords":  "Georgia On My Mind 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "La Bamba",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-cfbd05c9877d",
+                      "keywords":  "La Bamba 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Moon River",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-88c9df2d45a0",
+                      "keywords":  "Moon River 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Nothing\u0027s Gonna Change My Love For You",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-8d354fb95785",
+                      "keywords":  "Nothing\u0027s Gonna Change My Love For You 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Wonderful Tonight",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-542d54f1df9c",
+                      "keywords":  "Wonderful Tonight 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "红豆",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-7df42949af30",
+                      "keywords":  "红豆 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "记得",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-b4d22dbbe1db",
+                      "keywords":  "记得 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "狂潮",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-162b36923f2b",
+                      "keywords":  "狂潮 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "月亮代表我的心",
+                      "date":  "2026",
+                      "description":  "方大同 / Timeless 可啦思刻",
+                      "url":  "music-player.html?album=Timeless 可啦思刻\u0026track=track-fb6a647e6c30",
+                      "keywords":  "月亮代表我的心 方大同 Timeless 可啦思刻 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "100种表情",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-5de939372e52",
+                      "keywords":  "100种表情 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "1234567",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-b1e12f6cd9b6",
+                      "keywords":  "1234567 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Orange Moon (Hidden track)",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-4d6346525f31",
+                      "keywords":  "Orange Moon (Hidden track) 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Singalongsong",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-f22698ebabad",
+                      "keywords":  "Singalongsong 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "爱我吧",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-ce84c671c450",
+                      "keywords":  "爱我吧 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "黑白",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-5d450e9f66a9",
+                      "keywords":  "黑白 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "黑洞里",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-786a568e57d8",
+                      "keywords":  "黑洞里 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "每个人都会",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-f382d7b4944d",
+                      "keywords":  "每个人都会 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "如果爱",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-b9b4d740d036",
+                      "keywords":  "如果爱 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "三人游",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-bb1d2e317000",
+                      "keywords":  "三人游 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "为你写的歌",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-7c73ee530168",
+                      "keywords":  "为你写的歌 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "小小虫",
+                      "date":  "2008",
+                      "description":  "方大同 / 橙月 Orange Moon",
+                      "url":  "music-player.html?album=橙月 Orange Moon\u0026track=track-f04fc8479dd7",
+                      "keywords":  "小小虫 方大同 橙月 Orange Moon 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "爱不来",
+                      "date":  "2014",
+                      "description":  "方大同_葛仲珊 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-ef447c1ef0cb",
+                      "keywords":  "爱不来 方大同_葛仲珊 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Peace",
+                      "date":  "2014",
+                      "description":  "方大同_袁娅维 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-6cf51236184f",
+                      "keywords":  "Peace 方大同_袁娅维 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Boarding",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-3476b78e0e77",
+                      "keywords":  "Boarding 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Lights Up",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-18c7047529d3",
+                      "keywords":  "Lights Up 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Soundcheck",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-87c41d8e68c0",
+                      "keywords":  "Soundcheck 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Weather Report",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-55a5ff4fe79f",
+                      "keywords":  "Weather Report 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "Welcome",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-b2012f99d903",
+                      "keywords":  "Welcome 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "巴黎",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-391d20e032a4",
+                      "keywords":  "巴黎 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "枫叶做的风铃",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-3e7e3e2cb92f",
+                      "keywords":  "枫叶做的风铃 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "黑白灰",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-a60f20deae6e",
+                      "keywords":  "黑白灰 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "僵尸",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-47f6cdb27005",
+                      "keywords":  "僵尸 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "桃花运",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-3553ec7dda43",
+                      "keywords":  "桃花运 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "特别的人",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-d1135c4803a9",
+                      "keywords":  "特别的人 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "天气先生",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-3b40c42f346f",
+                      "keywords":  "天气先生 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "危险世界",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-69b869ab4123",
+                      "keywords":  "危险世界 方大同 危险世界 方大同"
+                  },
+                  {
+                      "type":  "music",
+                      "title":  "小方",
+                      "date":  "2014",
+                      "description":  "方大同 / 危险世界",
+                      "url":  "music-player.html?album=危险世界\u0026track=track-e510b75d6ecb",
+                      "keywords":  "小方 方大同 危险世界 方大同"
                   }
               ]
 }
